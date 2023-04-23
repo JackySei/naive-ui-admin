@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./src/assets/image/favicon.ico" type="image/x-ico" />
+    <title>项目名称</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <!-- <script>
+    var phoneWidth = parseInt(window.innerWidth);
+    var flagPc = 1920;
+    var flagPhone = 1440;
+    var pcScale = phoneWidth / flagPc;
+    var phoneScale = phoneWidth / flagPhone;
+    var ua = navigator.userAgent;
+    // eruda.init()
+
+    if (Number(phoneWidth) > Number(flagPhone)) {
+      document.body.style.zoom = pcScale;
+    } else {
+      if (/Android (\d+\.\d+)/.test(ua)) {
+        var version = parseFloat(RegExp.$1);
+        if (version > 2.3) {
+          document.write(
+            '<meta name="viewport" content="width=1440, minimum-scale = ' +
+              phoneScale +
+              ", maximum-scale = " +
+              phoneScale +
+              ', target-densitydpi=device-dpi">'
+          );
+        } else {
+          document.write(
+            '<meta name="viewport" content="width=1440, target-densitydpi=device-dpi">'
+          );
+        }
+      } else if (!!ua.match(/Mac OS/) || !!ua.match(/Macintosh/)) {
+        document.write(
+          '<meta name="viewport" content="width=1440,user-scalable=0">'
+        );
+      } else {
+        document.body.style.zoom = pcScale;
+      }
+    }
+  </script> -->
+</html>
